@@ -1,0 +1,79 @@
+/*
+Theme Name: Greg Rowe Blank Theme
+Theme URI:
+Author: Greg Rowe
+Description: Blank theme for WIE course
+Version: 0.1
+License: Open
+Text Domain: greg_rowe_blank_template
+*/
+
+
+@import url("css/normalize.css");
+@import url("css/skeleton.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html,
+body {
+    color: #000000;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #999999;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 3.0rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+h3 {
+    font-size: 2.0rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+h5 {
+    font-size: 1.0rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*--- Menu --- */
+
+.blank-menu-header {
+    text-align: right;
+    margin-top: 40px;
+}
+.blank-menu-header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+}
+.blank-menu-header li {
+    display: inline;
+}
+.blank-menu-header ul li a {
+    text-decoration:none;
+    margin: 4px;
+    padding: 5px 0px 5px 40px;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+.blank-menu-header ul li a:hover {
+    color: #cccccc;
+}
