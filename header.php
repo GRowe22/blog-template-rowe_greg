@@ -11,11 +11,12 @@
 <div class="container">
     <header class="row">
         <div class="nine columns">
-            <?php if ( function_exists( 'the_custom_logo' ) ) {
-                the_custom_logo();
-                }
-            ?>
-            
+            <div class="header-logo">
+                <?php if ( function_exists( 'the_custom_logo' ) ) {
+                    the_custom_logo();
+                    }
+                ?>
+            </div>
         </div>
     <!-- Add Search Form -->
         <div class="three columns">

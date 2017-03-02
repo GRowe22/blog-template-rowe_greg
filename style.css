@@ -57,6 +57,11 @@ header {
     height: 160px;
 }
 
+.header-logo {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
 /*--- Menu --- */
 
 .blank-menu-header {
