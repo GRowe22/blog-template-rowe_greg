@@ -11,10 +11,11 @@
 <div class="container">
     <header class="row">
         <div class="nine columns">
-            <h1><a href="<?php $url = home_url('/'); echo $url; ?>">
-                <h2><?php bloginfo('name'); ?></h2>
-            </a></h1>
-            <h2><?php bloginfo('description'); ?></h2>
+            <?php if ( function_exists( 'the_custom_logo' ) ) {
+                the_custom_logo();
+                }
+            ?>
+            
         </div>
     <!-- Add Search Form -->
         <div class="three columns">

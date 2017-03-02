@@ -52,6 +52,11 @@ a {
     text-decoration: none;
 }
 
+header {
+    background-color: #574737;
+    height: 160px;
+}
+
 /*--- Menu --- */
 
 .blank-menu-header {
