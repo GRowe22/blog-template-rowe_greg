@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #999999;
+    color: #574737;
     font-weight: 700;
 }
 
@@ -50,6 +50,10 @@ h5 {
 
 a {
     text-decoration: none;
+}
+
+.container {
+    background-color: #FFF9F4;
 }
 
 header {
