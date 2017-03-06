@@ -50,6 +50,12 @@ h5 {
 
 a {
     text-decoration: none;
+    color: #574737;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #bd9c7e;
 }
 
 .container {
@@ -91,4 +97,9 @@ header {
 }
 .blank-menu-header ul li a:hover {
     color: #bd9c7e;
+}
+
+.sidebar-thumbnail img {
+    height: 40px;
+    width: 40px;
 }
