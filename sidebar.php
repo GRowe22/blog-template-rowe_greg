@@ -11,7 +11,14 @@
                 </div>
                 <div class="nine columns">
                     <h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-                    <?php the_time('F j, Y'); ?>
+                    <div class="row">
+                        <div class="six columns sidebar-date">
+                            <?php the_time('F j, Y'); ?>
+                        </div>
+                        <div class="six columns sidebar-category">
+                            <?php the_category( '"|"' ); ?>
+                        </div>
+                    </div>
                 </div>
             </div>
             <?php
