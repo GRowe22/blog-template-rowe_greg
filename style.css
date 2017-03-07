@@ -11,7 +11,7 @@ Text Domain: greg_rowe_blank_template
 
 @import url("css/normalize.css");
 @import url("css/skeleton.css");
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 
 html,
 body {
@@ -102,4 +102,15 @@ header {
 .sidebar-thumbnail img {
     height: 40px;
     width: 40px;
+}
+
+.sidebar-post h5 {
+    margin: 0px;
+    padding: 0px;
+    line-height: normal;
+}
+
+.sidebar-date-category {
+    font-size: .80em;
+    font-weight: 300;
 }

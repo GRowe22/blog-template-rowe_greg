@@ -4,19 +4,22 @@
             the_post(); ?>
 
             <div class="row">
-                <div class="three columns sidebar-thumbnail">
+                <div class="two columns sidebar-thumbnail">
                     <?php if ( has_post_thumbnail() ) {
                     the_post_thumbnail('thumbnail');
                     }?>
                 </div>
-                <div class="nine columns">
+                <div class="ten columns sidebar-post">
                     <h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-                    <div class="row">
-                        <div class="six columns sidebar-date">
-                            <?php the_time('F j, Y'); ?>
+                    <div class="row sidebar-date-category">
+                        <div class="three columns">
+                            <?php the_time('M j, Y'); ?>
                         </div>
-                        <div class="six columns sidebar-category">
-                            <?php the_category( '"|"' ); ?>
+                        <div class="one columns">
+                            <p> | </p>
+                        </div>
+                        <div class="eight columns">
+                            <?php the_category( '|' ); ?>
                         </div>
                     </div>
                 </div>
