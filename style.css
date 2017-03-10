@@ -17,7 +17,6 @@ html,
 body {
     color: #000000;
     font-size: 14px;
-    line-height: 1.5em;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -99,9 +98,44 @@ header {
     color: #bd9c7e;
 }
 
+.index-container {
+    padding-left: 50px;
+    margin-top: 40px;
+}
+
+.post-tile {
+    background-color: #ffffff;
+    border:  1px solid #DDDDDD;
+    display: inline-grid;
+}
+
+.post-tile {
+    width: 350px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.post-tile h4 {
+    margin: 0px;
+    padding: 0px 10px;
+}
+
+.post-tile p {
+    margin-top: 15px;
+    padding: 0px 10px;
+}
+
+.post-tile .sidebar-date-category {
+    padding: 0px 10px;
+}
+
+.sidebar-margin {
+    margin-left: 0px;
+}
+
 .sidebar-container {
     width: 260px;
-    margin: 50px 5px 0px 50px;
+    margin: 50px 5px 0px 0px;
     background-color: #ffffff;
     border-bottom: 1px solid #DDDDDD;
     border-left: 1px solid #DDDDDD;

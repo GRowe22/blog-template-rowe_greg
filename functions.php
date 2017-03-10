@@ -62,8 +62,20 @@ add_theme_support('menus');
 
 /*--- Enable Post Thumbnails ---*/
 add_theme_support( 'post-thumbnails' );
+add_image_size( 'tile-thumb', 350, 415 ); //300 pixels wide (and unlimited height)
 
 /*--- Enable Custom Logo ---*/
 add_theme_support( 'custom-logo' );
+
+/**
+ * Filter the except length to 20 words.
+ *
+ * @param int $length Excerpt length.
+ * @return int (Maybe) modified excerpt length.
+ */
+function wpdocs_custom_excerpt_length( $length ) {
+    return 20;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
 
 ?>
