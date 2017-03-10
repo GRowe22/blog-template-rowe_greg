@@ -62,7 +62,7 @@ add_theme_support('menus');
 
 /*--- Enable Post Thumbnails ---*/
 add_theme_support( 'post-thumbnails' );
-add_image_size( 'tile-thumb', 350, 415 ); //300 pixels wide (and unlimited height)
+add_image_size( 'tile-thumb', 350, 197 ); //300 pixels wide (and unlimited height)
 
 /*--- Enable Custom Logo ---*/
 add_theme_support( 'custom-logo' );
