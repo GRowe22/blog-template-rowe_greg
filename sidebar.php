@@ -1,4 +1,7 @@
 <div class="sidebar-container">
+    <div class="sidebar-header">
+        <h4>Recent Posts</h4>
+    </div>
 
     <?php
         if ( have_posts() ) {
@@ -27,12 +30,14 @@
             } // end while
         } // end if
     ?>
-    <!-- END LOOP -->
 
-    <?php dynamic_sidebar('first-widget'); ?>
+</div>
 
-    <?php
-    if ( has_post_thumbnail() ) {
-        the_post_thumbnail('thumbnail');
-    } ?>
+<div class="sidebar-container">
+    <div class="sidebar-header">
+        <h4>Calendar</h4>
+    </div>
+    <div class="widget-style">
+        <?php dynamic_sidebar('first-widget'); ?>
+    </div>
 </div>

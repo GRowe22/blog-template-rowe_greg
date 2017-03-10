@@ -1,8 +1,12 @@
 <?php get_header(); ?>
 
 <!-- Begin Section Container -->
-<section class="row">
+<section class="row index-container">
     <div class="eight columns">
+        <h1>Welcome to Lone Star Pet Rescue</h1>
+        <p>
+            Paragraph-Large. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat…
+        </p>
         <!-- BEGIN LOOP -->
         <?php
             if ( have_posts() ) {

@@ -101,7 +101,23 @@ header {
 
 .sidebar-container {
     width: 260px;
+    margin: 50px 5px 0px 50px;
     background-color: #ffffff;
+    border-bottom: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+}
+
+.sidebar-header {
+    background-color: #574737;
+    padding: 10px;
+}
+
+.sidebar-header h4 {
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .sidebar-thumbnail img {
@@ -121,9 +137,14 @@ header {
 
 .sidebar-entry {
     padding: 10px;
+    border-top: 1px solid #DDDDDD;
 }
 
 .sidebar-date-category {
     font-size: .80em;
     font-weight: 300;
+}
+
+.widget-style {
+    padding: 10px;
 }
