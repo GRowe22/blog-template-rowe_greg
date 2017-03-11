@@ -22,6 +22,7 @@
             </div>
 
             <div class="four columns footer-calendar">
+                <h4>Calendar</h4>
                 <?php dynamic_sidebar('footer-widget-three'); ?>
             </div>
     </div>

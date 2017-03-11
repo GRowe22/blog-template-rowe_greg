@@ -193,20 +193,25 @@ footer {
     margin-bottom: 50px;
 }
 
-.footer-text h4 {
+.footer-text h4,
+.footer-calendar h4 {
     margin: 0px;
     padding: 0px;
     line-height: normal;
-    color: #bd9c7e;
+    color: #ffffff;
 }
 
 .footer-text p {
     margin: 0px;
     padding-top: 15px;
-    color: #bd9c7e;
+    color: #ffffff;
     line-height: normal;
 }
 
 .footer-calendar {
     width: 250px;
+}
+
+.footer-calendar h4 {
+    padding-bottom: 15px;
 }
