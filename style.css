@@ -182,3 +182,16 @@ header {
 .widget-style {
     padding: 10px;
 }
+
+footer {
+    background-color: #574737;
+    height: 460px;
+}
+
+.footer-navigation {
+    padding-right: 50px;
+}
+
+.footer-calendar {
+    width: 250px;
+}
