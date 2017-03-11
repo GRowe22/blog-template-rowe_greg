@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-    <section class="row">
-        <div class="eight columns">
+    <section class="row page-container">
+        <div class="nine columns page-content">
 <!-- BEGIN PAGE PHP -->
             <?php if (have_posts()) {
                 while (have_posts()) {
@@ -15,7 +15,7 @@
 <!-- END PAGE PHP -->
         </div>
 
-        <div class="four columns">
+        <div class="three columns">
             <?php get_sidebar(); ?>
         </div>
 

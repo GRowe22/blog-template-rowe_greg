@@ -225,7 +225,8 @@ footer {
     max-width: 788px;
 }
 
-.fourohfour-content {
+.fourohfour-content,
+.page-container {
     padding: 0px 50px 50px 50px;
     color: #574737;
 }
@@ -234,4 +235,8 @@ footer {
     padding: 40px 0px;
     margin: auto;
     display: block;
+}
+
+.page-content {
+    padding-top: 40px;
 }
