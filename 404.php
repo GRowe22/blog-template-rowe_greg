@@ -1,20 +1,17 @@
 <?php
-/* Template: 404 page (Not Found) */
-
-get_header(); ?>
-
+    get_header(); ?>
+<div class="fourohfour-content">
     <div class="row">
-        <div class="eight columns">
-            <h1>Not Found</h1>
-            <h2>This is somewhat embarrassing, isn't it?</h2>
-            <p>It looks like nothing was found at this location. Maybe try a search?</p>
-            <h2>Try searching for what you need:</h2>
+        <div class="nine columns">
+            <img class="fourohfour-img" src="http://gator-rowe.com/wp-content/uploads/2017/03/dog_404-e1489261574287.png" />
+            <h1>...oops, not found</h1>
+            <p>It looks like nothing was found at this location. Maybe try searching for what you are looking for?</p>
             <?php get_search_form(); ?>
         </div>
 
-        <div class="four columns">
+        <div class="three columns">
             <?php get_sidebar(); ?>
         </div>
     </div>
-
-<?php get_footer(); ?>
+</div>
+    <?php get_footer(); ?>

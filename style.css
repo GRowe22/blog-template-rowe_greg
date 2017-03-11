@@ -215,3 +215,23 @@ footer {
 .footer-calendar h4 {
     padding-bottom: 15px;
 }
+
+.single-page-content {
+    padding: 40px 50px 0px 50px;
+    color: #574737;
+}
+
+.single-page-content img {
+    max-width: 788px;
+}
+
+.fourohfour-content {
+    padding: 0px 50px 50px 50px;
+    color: #574737;
+}
+
+.fourohfour-img {
+    padding: 40px 0px;
+    margin: auto;
+    display: block;
+}
