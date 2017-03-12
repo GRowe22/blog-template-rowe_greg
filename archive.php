@@ -4,14 +4,15 @@
 get_header(); ?>
 <div class="archive-container">
     <div class="row">
-        <div class="nine columns">
+        <div class="nine columns archive-content">
             <div class="row">
                 <div class="twelve columns">
-
+                    <?php get_search_form(); ?>
                     <h2>Archives</h2>
                     <?php if ( have_posts() ) :
                         // The Loop
                         while ( have_posts() ) : the_post();?>
+                        <div class="post-thumbnail"><?php the_post_thumbnail('medium'); ?></div>
                         <!-- data context -->
                             <h3>
                                 <a href="<?php the_permalink() ?>">
@@ -27,11 +28,11 @@ get_header(); ?>
             </div>
             <div class="row">
                 <div class="twelve columns">
-                    <h2>Archives by Month:</h2>
+                    <h2>Listed by Month:</h2>
                     <ul>
                         <?php wp_get_archives('type=monthly'); ?>
                     </ul>
-                    <h2>Archives by Category:</h2>
+                    <h2>Listed by Category:</h2>
                     <ul>
                         <?php wp_list_categories(); ?>
                     </ul>

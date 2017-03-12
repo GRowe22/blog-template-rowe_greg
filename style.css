@@ -241,7 +241,39 @@ footer {
     padding-top: 40px;
 }
 
-.more-link {
-    border: 1px solid #DDDDDD;
+.archive-content {
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.cool-pagination {
+    float: right;
+    padding-right: 80px;
+}
+
+.navigation li a,
+.navigation li a:hover,
+.navigation li.active a,
+.navigation li.disabled {
+    color: #fff;
+    text-decoration:none;
+}
+
+.navigation li {
+    display: inline;
+}
+
+.navigation li a,
+.navigation li a:hover,
+.navigation li.active a,
+.navigation li.disabled {
+    background-color: #bd9c7e;
     border-radius: 3px;
+    cursor: pointer;
+    padding: 0.75rem 1rem;
+}
+
+.navigation li a:hover,
+.navigation li.active a {
+    background-color: #574737;
 }

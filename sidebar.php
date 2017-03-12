@@ -7,7 +7,9 @@
         if ( have_posts() ) {
             while ( have_posts() ) {
                 the_post(); ?>
-
+                <?php static $count = 0;
+                    if ($count == "5") { break; }
+                    else { ?>
                 <div class="row sidebar-entry">
                     <div class="two columns sidebar-thumbnail">
                         <?php if ( has_post_thumbnail() ) {
@@ -26,6 +28,7 @@
                         </div>
                     </div>
                 </div>
+                <?php $count++; } ?>
                 <?php
             } // end while
         } // end if

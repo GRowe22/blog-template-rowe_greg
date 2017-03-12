@@ -33,6 +33,9 @@
             } // end if
         ?>
         <!-- END LOOP -->
+        <div class="cool-pagination">
+            <?php wpbeginner_numeric_posts_nav(); ?>
+        </div>
         </main>
     </div>
 
