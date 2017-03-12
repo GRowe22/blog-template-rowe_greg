@@ -26,7 +26,7 @@
                                 <?php the_category( '|' ); ?>
                         </div>
                         <?php the_excerpt(); ?>
-                        <p><a href="<?php the_permalink(); ?>">Read More</a></p>
+                        <p class="post-button"><a href="<?php the_permalink(); ?>">Read More</a></p>
                     </div>
                 <?php
                 } // end while

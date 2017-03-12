@@ -125,6 +125,22 @@ header {
     padding: 0px 10px;
 }
 
+.post-button {
+    border: 1px solid #574737;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 100px;
+    width: 72px;
+}
+
+.post-button:hover {
+    border: 1px solid #bd9c7e;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 100px;
+    width: 72px;
+}
+
 .post-tile img {
     border-bottom:  1px solid #DDDDDD;
 }
