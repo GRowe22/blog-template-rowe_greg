@@ -135,7 +135,7 @@ header {
 
 .sidebar-container {
     width: 260px;
-    margin: 50px 5px 0px 0px;
+    margin: 50px 5px 50px 0px;
     background-color: #ffffff;
     border-bottom: 1px solid #DDDDDD;
     border-left: 1px solid #DDDDDD;
@@ -227,7 +227,7 @@ footer {
 
 .fourohfour-content,
 .page-container {
-    padding: 0px 50px 50px 50px;
+    padding: 0px 50px 0px 50px;
     color: #574737;
 }
 
@@ -239,4 +239,9 @@ footer {
 
 .page-content {
     padding-top: 40px;
+}
+
+.more-link {
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
 }
